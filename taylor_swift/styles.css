@@ -44,7 +44,7 @@ html, body, ul {
 .artist-name {
     text-align: center;
     margin: 0;
-    font-size: 4em;
+    font-size: 3em;
     color: white;
 }
 
@@ -65,4 +65,22 @@ html, body, ul {
 
 .about-image {
     float: left;
+}
+
+.main-footer {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/002/282/929/original/red-and-gold-rectangle-long-banner-design-free-vector.jpg");
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul{
+    text-align: end;
+    flex-grow: 1;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
 }
