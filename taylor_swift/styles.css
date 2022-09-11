@@ -68,7 +68,7 @@ html, body, ul {
 }
 
 .main-footer {
-    background-image: url("https://static.vecteezy.com/system/resources/previews/002/282/929/original/red-and-gold-rectangle-long-banner-design-free-vector.jpg");
+    background-color: #8B0000;
 }
 
 .main-footer-container {
@@ -83,4 +83,25 @@ html, body, ul {
 
 .footer-nav li {
     padding: 0 .5em;
+}
+
+.buttons {
+    text-align: center;
+    vertical-align: middle;
+    padding: .7em;
+    cursor: pointer;
+}
+
+.button-header {
+    color: white;
+    border: 3px solid #8B0000;
+    background-color: rgba(255, 255, 255, .1);
+    font-size: 1.3em;
+    font-weight: lighter;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.button-header:hover {
+    background-color: rgba(255, 255, 255, .3);
 }
