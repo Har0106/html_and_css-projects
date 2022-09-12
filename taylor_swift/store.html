@@ -92,32 +92,41 @@
         </section>
         <section class="content">
             <h2 class="section-header">CART</h2>
-            <div>
-                <strong>ITEM</strong>
-                <strong>PRICE</strong>
-                <strong>QUANTITY</strong>
+            <div class="cart-items">
+                <div class="cart-row">
+                    <strong class="cart-item cart-header cart-column">ITEM</strong>
+                    <strong class="cart-price cart-header cart-column">PRICE</strong>
+                    <strong class="cart-quantity cart-header cart-column">QUANTITY</strong>
+                </div>
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="https://cdn.shopify.com/s/files/1/0011/4651/9637/products/RINGFINALFINALFINAL_400x.png?v=1634825819" height="100">
+                        <span class="cart-item-title">RED (Taylor's Version) Album Ring</span>
+                    </div>
+                    <span class="cart-column cart-price">$45.00</span>
+                    <div class="cart-column cart-quantity">
+                        <input class="cart-quantity-input" type="number" value="1">
+                        <button class="buttons cart-quantity-button" role="button">REMOVE</button>
+                    </div>
+                </div>
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="https://upload.wikimedia.org/wikipedia/en/thumb/4/47/Taylor_Swift_-_Red_%28Taylor%27s_Version%29.png/220px-Taylor_Swift_-_Red_%28Taylor%27s_Version%29.png" height="100">
+                        <span class="cart-item-title">RED (Taylor's Version)</span>
+                    </div>
+                    <span class="cart-column cart-price">$14.99</span>
+                    <div class="cart-column cart-quantity">
+                        <input class="cart-quantity-input" type="number" value="1">
+                        <button class="buttons cart-quantity-button" role="button">REMOVE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">TOTAL</strong>
+                <span class="cart-total-price">$59.99</span>
             </div>
             <div>
-                <img src="https://cdn.shopify.com/s/files/1/0011/4651/9637/products/RINGFINALFINALFINAL_400x.png?v=1634825819" height="100">
-                <span>RED (Taylor's Version) Album Ring</span>
-                <span>$45.00</span>
-                <input type="number" value="1">
-                <button role="button">REMOVE</button>
-            </div>
-            <div>
-                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/47/Taylor_Swift_-_Red_%28Taylor%27s_Version%29.png/220px-Taylor_Swift_-_Red_%28Taylor%27s_Version%29.png" height="100">
-                <span>RED (Taylor's Version)</span>
-                <span>$14.99</span>
-                <input type="number" value="1">
-                <button role="button">REMOVE</button>
-            </div>
-            <hr>
-            <div>
-                <strong>TOTAL</strong>
-                <span>$59.99</span>
-            </div>
-            <div>
-                <button role="button">PURCHASE</button>
+                <button class="buttons primary-btn purchase-btn" role="button">PURCHASE</button>
             </div>
         </section>
         <footer class="main-footer">
