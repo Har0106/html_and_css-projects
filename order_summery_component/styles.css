@@ -8,9 +8,10 @@
 
 body {
     background-image: url('https://raw.githubusercontent.com/Madisonkanna/tutorial-order-summary-component/1000c292b4c9edf3496f86e142fdeb6ba14f2b8b/images/pattern-background-desktop.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
     background-color: #ADD8E6;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
     font-family: 'Open sans', sans-serif;
 }
 
