@@ -19,15 +19,16 @@ body {
     width: 450px;
     border-radius: 20px;
     overflow: hidden;
+    margin: 50px auto;
 }
 
 .container {
+    padding: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     font-size: 18px;
-    padding: 30px;
 }
 
 .container > * {
@@ -46,6 +47,36 @@ body {
 
 .order-description {
     line-height: 25px;
+}
+
+.plan-container {
+    font-size: 16px;
+    background-color: #D7E5F0;
+    padding: 25px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plan-container a {
+    font-size: 13px;
+    font-weight: 700;
+    color: blue;
+}
+
+.plan-container a:hover {
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+.plan-container strong {
+    color: #00008B;
+}
+
+.plan-description {
+    margin-right: 75px;
 }
 
 button {
