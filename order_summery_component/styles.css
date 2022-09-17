@@ -1,0 +1,20 @@
+body {
+    background-image: url('https://raw.githubusercontent.com/Madisonkanna/tutorial-order-summary-component/1000c292b4c9edf3496f86e142fdeb6ba14f2b8b/images/pattern-background-desktop.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #ADD8E6;
+}
+
+.card {
+    background-color: white;
+}
+
+.hero-image {
+    width: 100%;
+}
+
+.title {
+    color: #00008B;
+    font-weight: 900;
+    font-size: 32px;
+}
