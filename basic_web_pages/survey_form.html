@@ -5,60 +5,36 @@
         <meta name="description" content="survey form">
         <meta name="keywords" content="survey form">
         <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
         <title>Survey Form</title>
     </head>
-    <body>
-        <big>
-            <header>
-                <h1>Survey Form</h1>
-            </header>
-            <main>
-                <label>Name</label>
-                <input type="text" width="100"/>
-                <br/><br/>
-                <label>Email</label>
-                <input type="email">
-                <br/><br/>
-                <label>Age</label>
-                <input type="text">
-                <br/><br/>
-                <label>Which option best describes you?</label>
-                <input type="radio" name="option">
-                <label>Student</label>
-                <input type="radio" name="option">
-                <label>Teacher</label>
-                <br/><br/>
-                <label>Would you recommend us to your friend?</label>
-                <input type="radio" name="option">
-                <label>Yes</label>
-                <input type="radio" name="option">
-                <label>No</label>
-                <br/><br/>
-                <label>What do you except more in future?</label>
-                <br/>
-                <input type="checkbox">
-                <label>Kotlin</label>
-                <br/>
-                <input type="checkbox">
-                <label>Swift</label>
-                <br/>
-                <input type="checkbox">
-                <label>Dart</label>
-                <br/>
-                <input type="checkbox">
-                <label>React</label>
-                <br/>
-                <input type="checkbox">
-                <label>Flutter</label>
-                <br/><br/>
-                <label>Feedback:</label>
-                <br/>
-                <textarea rows="4" cols="50"></textarea>
-            </main>
-            <footer>
-                <br/>
-                <input type="submit">
-            </footer>
-        </big>
+    <body class="content-container">
+        <header>
+            <h1 class="main-heading">Survey Form</h1>
+        </header>
+        <main>
+            <div class="user-details">
+                <div>First Name<input type="text" width="100"/></div>
+                <div>Last Name<input type="text"></div>
+                <div>Email<input type="email"></div>
+            </div>
+            <label>Which option best describes you?</label>
+            <input type="radio" name="option"><label>Student</label>
+            <input type="radio" name="option"><label>Teacher</label>
+            <label>Would you recommend us to your friend?</label>
+            <input type="radio" name="option"><label>Yes</label>
+            <input type="radio" name="option"><label>No</label>
+            <label>What do you except more in future?</label>
+            <input type="checkbox"><label>Kotlin</label>
+            <input type="checkbox"><label>Swift</label>
+            <input type="checkbox"><label>Dart</label>
+            <input type="checkbox"><label>React</label>
+            <input type="checkbox"><label>Flutter</label>
+            <label>Feedback:</label>
+            <textarea rows="4" cols="50"></textarea>
+        </main>
+        <footer>
+            <input type="submit">
+        </footer>
     </body>
 </html>
