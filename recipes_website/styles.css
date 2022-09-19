@@ -115,6 +115,9 @@ a {
 .nav-links {
   display: flex;
   flex-direction: column;
+  height: 0;
+  overflow: hidden;
+  transition: var(--transition);
 }
 
 .nav-link {
@@ -138,4 +141,8 @@ a {
 .nav-logo {
   display: flex;
   align-items: center;
+}
+
+.show-links {
+  height: 310px;
 }
