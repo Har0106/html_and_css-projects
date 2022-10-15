@@ -75,3 +75,13 @@ footer {
     background-color: black;
     padding: 5px;
 }
+
+select {
+    margin-top: 10px;
+    border: none;
+    border-radius: 1px;
+    font-size: 1.3rem;
+    width: 100%;
+    background-color: #f1efef;
+    padding: 3px;
+}
