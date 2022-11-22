@@ -23,7 +23,7 @@
             </nav>
             <section class="content">
                 <section id="introduction" class="main-section">
-                    <header>Intrduction</header>
+                    <header>Introduction</header>
                     <p>Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.</p>
                     <p>Python is dynamically-typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming. It is often described as a "batteries included" language due to its comprehensive standard library.</p>
                     <p>Guido van Rossum began working on Python in the late 1980s as a successor to the ABC programming language and first released it in 1991 as Python 0.9.0.</p>
@@ -33,20 +33,20 @@
                 <section id="hello_world" class="main-section">
                     <header>Hello World</header>
                     <p>A simple program that displays “Hello, World!”. It's often used to illustrate the syntax of the language.</p>
-                    <code>print('Hello World!')</code>
+                    <p class="code">print('Hello World!')</p>
                     <p>In this program, we have used the built-in print() function to print the string Hello, world! on our screen.</p>
                 </section>
                 <section id="variables" class="main-section">
                     <header>Variables</header>
                     <p>Variables are containers for storing data values.</p>
-                    <code>x = 5</code>
+                    <p class="code">x = 5</p>
                     <p>Python has no command for declaring a variable. A variable is created the moment you first assign a value to it.</p>
                 </section>
                 <section id="global_variables" class="main-section">
                     <header>Global Variables</header>
                     <p>Variables that are created outside of a function (as in all of the examples above) are known as global variables. Global variables can be used by everyone, both inside of functions and outside.</p>
                     <p>To create a global variable inside a function, you can use the global keyword.</p>
-                    <code>global x</code>
+                    <p class="code">def myfunc():<br><span class="indent">global x</span><br><span class="indent">x = "fantastic"</span><br><br>myfunc()<br>print("Python is " + x)</p>
                     <p>Normally, when you create a variable inside a function, that variable is local, and can only be used inside that function.</p>
                 </section>
                 <section id="data_types" class="main-section">
@@ -63,43 +63,42 @@
                         <li>Binary Types:	bytes, bytearray, memoryview</li>
                         <li>None Type:	NoneType</li>
                     </ul>
-                    <code>x = 5<br>print(type(x))</code>
+                    <p class="code">x = 5<br>print(type(x))</p>
                     <p>You can get the data type of any object by using the type() function.</p>
                 </section>
                 <section id="if-else_statement" class="main-section">
                     <header>If...else Statement</header>
                     <p>An "if statement" is written by using the if keyword.</p>
-                    <code>a = 33<br>b = 130<br>if b > a:</code>
-                    <label class="indent">print("b is greater than a")</label>
+                    <p class="code">a = 33<br>b = 130<br>if b > a:<br><span class="indent">print("b is greater than a")</span></p>
                     <p>Python relies on indentation (whitespace at the beginning of a line) to define scope in the code. Other programming languages often use curly-brackets for this purpose.</p>
                 </section>
                 <section id="while_statement" class="main-section">
                     <header>While Statement</header>
                     <p>With the while loop we can execute a set of statements as long as a condition is true.</p>
-                    <code>i = 1<br>while i < 6:<br>print(i)<br>i += 1</code>
+                    <p class="code">i = 1<br>while i < 6:<br><span class="indent">print(i)</span><br><span class="indent">i += 1</span></p>
                     <p>A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).</p>
-                    <code>fruits = ["apple", "banana", "cherry"]<br>for x in fruits:<br>print(x)</code>
+                    <p class="code">fruits = ["apple", "banana", "cherry"]<br>for x in fruits:<br><span class="indent">print(x)</span></p>
                     <p>With the for loop we can execute a set of statements, once for each item in a list, tuple, set etc.</p>
                 </section>
                 <section id="function_declaration" class="main-section">
                     <header>Function Declaration</header>
                     <p>A function is a block of code which only runs when it is called. You can pass data, known as parameters, into a function. A function can return data as a result.</p>
                     <p>In Python a function is defined using the def keyword:</p>
-                    <code>def my_function():<br>print("Hello from a function")</code>
+                    <p class="code">def my_function():<br><span class="indent">print("Hello from a function")</span></p>
                     <p>To call a function, use the function name followed by parenthesis.</p>
                 </section>
                 <section id="classes" class="main-section">
                     <header>Classes</header>
                     <p>Python is an object oriented programming language. Almost everything in Python is an object, with its properties and methods. A Class is like an object constructor, or a "blueprint" for creating objects.</p>
                     <p>To create a class, use the keyword class:</p>
-                    <code>class MyClass:<br>x = 5</code>
+                    <p class="code">class MyClass:<br><span class="indent">x = 5</span></p>
                     <p>In Python, object-oriented Programming (OOPs) is a programming paradigm that uses objects and classes in programming. It aims to implement real-world entities like inheritance, polymorphisms, encapsulation, etc. in the programming.</p>
                 </section>
                 <section id="try_except" class="main-section">
                     <header>Try Except</header>
                     <p>The try block lets you test a block of code for errors. The except block lets you handle the error. The else block lets you execute code when there is no error. The finally block lets you execute code, regardless of the result of the try- and except blocks.</p>
                     <p>When an error occurs, or exception as we call it, Python will normally stop and generate an error message. These exceptions can be handled using the try statement:</p>
-                    <code>try:<br>print(x)<br>except:<br>print("An exception occurred")</code>
+                    <p class="code">try:<br><span class="indent">print(x)</span><br>except:<br><span class="indent">print("An exception occurred")</span></p>
                     <p>Since the try block raises an error, the except block will be executed. Without the try block, the program will crash and raise an error.</p>
                 </section>
             </section>

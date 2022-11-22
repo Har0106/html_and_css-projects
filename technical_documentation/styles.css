@@ -2,11 +2,15 @@
 
 * {
     font-family: 'Open Sans';
-    padding: 0;
 }
 
 main {
     display: flex;
+}
+
+body {
+    margin: 0;
+    padding: 0;
 }
 
 nav a {
@@ -26,13 +30,16 @@ nav a:hover {
 
 nav header {
     font-size: 40px;
-    font-weight: 600;
-    padding-bottom: 15px;
+    font-weight: 800;
+    padding-bottom: 20px;
     text-align: center;
 }
 
 .content {
-    padding-left: 50px;
+    padding: 20px 50px;
+    border: solid #000 0.1px;
+    margin: 0;
+    line-height: 25px;
 }
 
 li {
@@ -40,5 +47,16 @@ li {
 }
 
 .indent {
-    text-indent: 10px;
+    padding-left: 20px;
+}
+
+.main-section header {
+    font-weight: 700;
+    font-size: 25px;
+    padding: 10px 0;
+}
+
+.code {
+    background-color: #E8E8E8;
+    padding: 15px 0 15px 10px;
 }
