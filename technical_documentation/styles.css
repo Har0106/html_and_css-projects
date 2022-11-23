@@ -60,3 +60,7 @@ li {
     background-color: #E8E8E8;
     padding: 15px 0 15px 10px;
 }
+
+code {
+    display: block;
+}
