@@ -11,9 +11,13 @@ main {
 
 @media only screen and (max-width: 815px) {
     #navbar {
-        position: absolute;
-        top: 0;
+        max-height: 275px;
     }
+}
+
+
+nav {
+    display: block;
 }
 
 body {
@@ -48,6 +52,7 @@ nav header {
     border: solid #000 0.1px;
     margin: 0;
     line-height: 25px;
+    display: block;
 }
 
 li {
