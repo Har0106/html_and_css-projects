@@ -2,10 +2,18 @@
 
 * {
     font-family: 'Open Sans';
+    overflow: visible;
 }
 
 main {
     display: flex;
+}
+
+@media only screen and (max-width: 815px) {
+    #navbar {
+        position: absolute;
+        top: 0;
+    }
 }
 
 body {
