@@ -71,3 +71,31 @@ ul li a {
     background-color: black;
     font-weight: 600;
 }
+
+#features {
+    width: 100%;
+    margin: 40px 0 60px 0;
+    font-size: 18px;
+}
+
+.feature {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    text-align: left;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.description {
+    width: 60%;
+    height: 120px;
+}
+
+.icon {
+    display: flex;
+    height: 120px;
+    width: 10%;
+    align-items: center;
+    justify-content: center;
+}
