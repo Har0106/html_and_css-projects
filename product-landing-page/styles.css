@@ -74,7 +74,7 @@ ul li a {
 
 #features {
     width: 100%;
-    margin: 40px 0 60px 0;
+    margin: 40px 0;
     font-size: 18px;
 }
 
@@ -98,4 +98,15 @@ ul li a {
     width: 10%;
     align-items: center;
     justify-content: center;
+}
+
+#how-it-works {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+
+#video {
+    width: 56%;
+    height: 300px;
 }
