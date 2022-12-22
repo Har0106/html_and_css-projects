@@ -103,10 +103,50 @@ ul li a {
 #how-it-works {
     display: flex;
     justify-content: center;
-    margin: 100px;
+    margin: 80px;
 }
 
 #video {
     width: 56%;
-    height: 300px;
+    height: 350px;
+}
+
+#pricing {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item {
+    border: black solid 0.5px;
+    margin: 0 20px;
+    width: 25%;
+    text-align: center;
+}
+
+.item-name {
+    background-color: #eee;
+    font-weight: 400;
+    font-size: 21px;
+    padding: 10px 0;
+}
+
+.price {
+    font-weight: 600;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.item ol {
+    list-style-type: none;
+    padding: 0;
+    font-size: 18px;
+}
+
+.item button {
+    background-color: black;
+    color: white;
+    width: 40%;
+    font-size: 19px;
+    margin-top: 10px;
+    margin-bottom: 25px;
 }
