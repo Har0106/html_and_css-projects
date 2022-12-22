@@ -150,3 +150,27 @@ ul li a {
     margin-top: 10px;
     margin-bottom: 25px;
 }
+
+footer {
+    background-color: #eee;
+    padding-top: 1px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+
+footer > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+footer > ul > li {
+    margin-left: 20px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
