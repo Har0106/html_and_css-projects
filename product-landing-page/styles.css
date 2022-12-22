@@ -22,6 +22,12 @@ header {
     justify-content: center;
 }
 
+@media only screen and (max-width: 815px) {
+    #nav-bar {
+        max-height: 275px;
+    }
+}
+
 #nav-bar {
     width: 30%;
 }
