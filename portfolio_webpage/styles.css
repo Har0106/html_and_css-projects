@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    font-size: 20px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #f0f0f0;
+    margin: 20px;
+    text-align: center;
+}
+
+#welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, black, #33336f);
+    height: 100vh;
+    width: 100vw;
+}
+
+h1 {
+    color: #f0f0f0;
+    font-size: 10vw;
+}
+
+p {
+    font-size: 2vw;
+    font-weight: 600;
+}
