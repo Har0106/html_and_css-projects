@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;700&display=swap');
+
 :root {
     --font-color: #f0f0f0
 }
@@ -5,6 +7,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Open sans', sans-serif;
 }
 
 header {
@@ -57,7 +60,7 @@ p {
 
 #projects-con {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-gap: 4vw;
     padding: 5.5vw 3vw;
 }
@@ -68,7 +71,7 @@ p {
     border-bottom: solid var(--font-color) 2px;
     padding-top: 5.5vw;
     margin: 0 35vw;
-    font-size: 2.2vw;
+    font-size: 2vw;
 }
 
 a {
