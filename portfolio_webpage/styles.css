@@ -71,7 +71,7 @@ p {
     text-align: center;
     border-bottom: solid var(--font-color) 2px;
     padding-top: 5.5vw;
-    margin: 0 35vw;
+    margin: 0 32vw;
     font-size: 2vw;
 }
 
@@ -94,7 +94,7 @@ a img {
     font-size: 1.5vw;
 }
 
-.project-title:hover {
+.project:hover {
    opacity: 40%;
 }
 
